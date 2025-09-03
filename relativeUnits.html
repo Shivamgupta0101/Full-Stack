@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Units Example</title>
+  <style>
+    body {
+      font-size: 16px; /* Root font size */
+      margin: 0;
+      padding: 20px;
+    }
+
+    .box {
+      background: lightblue;
+      margin: 10px 0;
+      padding: 10px;
+      border: 2px solid navy;
+    }
+
+    .px {
+      width: 200px;
+      height: 100px;
+    }
+
+    .percent {
+      width: 50%;
+      height: 50px;
+    }
+
+    .em {
+      font-size: 2em; /* 2 × parent font size */
+    }
+
+    .rem {
+      font-size: 2rem; /* 2 × root font size */
+    }
+
+    .vh {
+      height: 20vh; /* 20% of viewport height */
+      width: 50%;
+    }
+
+    .vw {
+      width: 50vw; /* 50% of viewport width */
+      height: 80px;
+    }
+  </style>
+</head>
+<body>
+  <h2>CSS Units Demo</h2>
+
+  <div class="box px">Box with width: 200px</div>
+  <div class="box percent">Box with width: 50%</div>
+  <div class="box em">Font size: 2em</div>
+  <div class="box rem">Font size: 2rem</div>
+  <div class="box vh">Height: 20vh</div>
+  <div class="box vw">Width: 50vw</div>
+
+</body>
+</html>
